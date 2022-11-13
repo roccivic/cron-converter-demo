@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Expression /> 1`] = `
+<div>
+  <div
+    class="form-floating"
+    style="margin-bottom: 15px;"
+  >
+    <input
+      class="form-control"
+      id="expression"
+      type="email"
+      value="EXPRESSION"
+    />
+    <label
+      for="expression"
+    >
+      Cron expression
+    </label>
+  </div>
+</div>
+`;

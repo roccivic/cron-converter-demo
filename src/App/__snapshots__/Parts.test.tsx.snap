@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Parts /> 1`] = `
+<div>
+  <div
+    style="display: flex;"
+  >
+    <div
+      id="minute"
+      index="0"
+      max="59"
+      min="0"
+    />
+    <div
+      id="hour"
+      index="1"
+      max="23"
+      min="0"
+    />
+    <div
+      id="day"
+      index="2"
+      max="31"
+      min="1"
+    />
+    <div
+      id="month"
+      index="3"
+      max="12"
+      min="1"
+    />
+    <div
+      id="weekday"
+      index="4"
+      max="6"
+      min="0"
+    />
+  </div>
+</div>
+`;
