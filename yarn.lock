@@ -3300,8 +3300,9 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-cron-converter@../cron-converter:
+cron-converter@./cron-converter-2.0.0.tgz:
   version "2.0.0"
+  resolved "./cron-converter-2.0.0.tgz#fbfcdf08db25dc11c3382953a44e516fb67d7c4f"
   dependencies:
     luxon "^3.1.0"
 
