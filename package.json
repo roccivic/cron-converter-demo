@@ -12,7 +12,7 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "bootstrap": "^5.2.2",
-    "cron-converter": "^2.0.0",
+    "cron-converter": "^2.0.1",
     "luxon": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

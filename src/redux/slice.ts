@@ -1,11 +1,11 @@
-import { arrayToString, getSchedule, stringToArray } from "cron-converter";
+import { arrayToString, getSchedule, stringToArray, Schedule } from "cron-converter";
 import { createSlice } from "@reduxjs/toolkit";
 import { CronState, ValuePayload } from "./types";
 import { DateTime } from "luxon";
 import { PayloadAction } from "@reduxjs/toolkit";
 
 const updateSchedule = (state: CronState) => {
-  const schedule = getSchedule(state.array);
+  const schedule : Schedule = getSchedule(state.array);
   state.next = schedule.next().toLocaleString(DateTime.DATETIME_FULL);
   state.prev = schedule.prev().toLocaleString(DateTime.DATETIME_FULL);
   return state;
